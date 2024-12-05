@@ -1,0 +1,44 @@
+{
+  "assemblies": [
+    {
+      "name": "H1N1_2014",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "H1N1_2014-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "h1n1-2014.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "h1n1-2014.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "h1n1-2014",
+      "name": "h1n1-2014",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "h1n1-2014.gff",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "H1N1_2014"
+      ]
+    }
+  ]
+}

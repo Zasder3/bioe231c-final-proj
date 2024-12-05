@@ -1,0 +1,60 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3850380v1
+#!genome-build-accession NCBI_Assembly:GCA_038503805.1
+##sequence-region MN596844.1 1 2316
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MN596844.1	Genbank	region	1	2316	.	+	.	ID=MN596844.1:1..2316;Dbxref=taxon:11320;Name=1;collection-date=2009;country=USA: Delaware;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:E2E6%3B received at the CDC in Sept-2019;segment=1;serotype=H1N1;strain=A/California/7/2009
+MN596844.1	Genbank	gene	16	2295	.	+	.	ID=gene-PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding
+MN596844.1	Genbank	CDS	16	2295	.	+	0	ID=cds-QFR38302.1;Parent=gene-PB2;Dbxref=NCBI_GP:QFR38302.1;Name=QFR38302.1;gbkey=CDS;gene=PB2;product=polymerase PB2;protein_id=QFR38302.1
+##sequence-region MN596850.1 1 2316
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MN596850.1	Genbank	region	1	2316	.	+	.	ID=MN596850.1:1..2316;Dbxref=taxon:11320;Name=2;collection-date=2009;country=USA: Delaware;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:E2E6%3B received at the CDC in Sept-2019;segment=2;serotype=H1N1;strain=A/California/7/2009
+MN596850.1	Genbank	gene	13	2286	.	+	.	ID=gene-PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding
+MN596850.1	Genbank	CDS	13	2286	.	+	0	ID=cds-QFR38310.1;Parent=gene-PB1;Dbxref=NCBI_GP:QFR38310.1;Name=QFR38310.1;gbkey=CDS;gene=PB1;product=polymerase PB1;protein_id=QFR38310.1
+MN596850.1	Genbank	gene	107	379	.	+	.	ID=gene-PB1-F2;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=other
+MN596850.1	Genbank	sequence_feature	107	379	.	+	.	ID=id-PB1-F2;Note=nonfunctional PB1-F2 protein due to mutation;gbkey=misc_feature;gene=PB1-F2
+##sequence-region MN596848.1 1 2208
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MN596848.1	Genbank	region	1	2208	.	+	.	ID=MN596848.1:1..2208;Dbxref=taxon:11320;Name=3;collection-date=2009;country=USA: Delaware;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:E2E6%3B received at the CDC in Sept-2019;segment=3;serotype=H1N1;strain=A/California/7/2009
+MN596848.1	Genbank	gene	13	2163	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding
+MN596848.1	Genbank	CDS	13	2163	.	+	0	ID=cds-QFR38306.1;Parent=gene-PA;Dbxref=NCBI_GP:QFR38306.1;Name=QFR38306.1;gbkey=CDS;gene=PA;product=polymerase PA;protein_id=QFR38306.1
+MN596848.1	Genbank	gene	13	712	.	+	.	ID=gene-PA-X;Name=PA-X;gbkey=Gene;gene=PA-X;gene_biotype=protein_coding
+MN596848.1	Genbank	CDS	13	582	.	+	0	ID=cds-QFR38307.1;Parent=gene-PA-X;Dbxref=NCBI_GP:QFR38307.1;Name=QFR38307.1;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=QFR38307.1
+MN596848.1	Genbank	CDS	584	712	.	+	0	ID=cds-QFR38307.1;Parent=gene-PA-X;Dbxref=NCBI_GP:QFR38307.1;Name=QFR38307.1;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=QFR38307.1
+##sequence-region MN596845.1 1 1752
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MN596845.1	Genbank	region	1	1752	.	+	.	ID=MN596845.1:1..1752;Dbxref=taxon:11320;Name=4;collection-date=2009;country=USA: Delaware;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:E2E6%3B received at the CDC in Sept-2019;segment=4;serotype=H1N1;strain=A/California/7/2009
+MN596845.1	Genbank	gene	21	1721	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+MN596845.1	Genbank	CDS	21	1721	.	+	0	ID=cds-QFR38303.1;Parent=gene-HA;Dbxref=NCBI_GP:QFR38303.1;Name=QFR38303.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=QFR38303.1
+MN596845.1	Genbank	signal_peptide_region_of_CDS	21	71	.	+	.	ID=id-QFR38303.1:1..17;Parent=cds-QFR38303.1;gbkey=Prot
+MN596845.1	Genbank	mature_protein_region_of_CDS	72	1052	.	+	.	ID=id-QFR38303.1:18..344;Parent=cds-QFR38303.1;gbkey=Prot;product=HA1
+MN596845.1	Genbank	mature_protein_region_of_CDS	1053	1718	.	+	.	ID=id-QFR38303.1:345..566;Parent=cds-QFR38303.1;gbkey=Prot;product=HA2
+##sequence-region MN596846.1 1 1540
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MN596846.1	Genbank	region	1	1540	.	+	.	ID=MN596846.1:1..1540;Dbxref=taxon:11320;Name=5;collection-date=2009;country=USA: Delaware;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:E2E6%3B received at the CDC in Sept-2019;segment=5;serotype=H1N1;strain=A/California/7/2009
+MN596846.1	Genbank	gene	34	1530	.	+	.	ID=gene-NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding
+MN596846.1	Genbank	CDS	34	1530	.	+	0	ID=cds-QFR38304.1;Parent=gene-NP;Dbxref=NCBI_GP:QFR38304.1;Name=QFR38304.1;gbkey=CDS;gene=NP;product=nucleocapsid protein;protein_id=QFR38304.1
+##sequence-region MN596847.1 1 1433
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MN596847.1	Genbank	region	1	1433	.	+	.	ID=MN596847.1:1..1433;Dbxref=taxon:11320;Name=6;collection-date=2009;country=USA: Delaware;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:E2E6%3B received at the CDC in Sept-2019;segment=6;serotype=H1N1;strain=A/California/7/2009
+MN596847.1	Genbank	gene	9	1418	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+MN596847.1	Genbank	CDS	9	1418	.	+	0	ID=cds-QFR38305.1;Parent=gene-NA;Dbxref=NCBI_GP:QFR38305.1;Name=QFR38305.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=QFR38305.1
+##sequence-region MN596849.1 1 1002
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MN596849.1	Genbank	region	1	1002	.	+	.	ID=MN596849.1:1..1002;Dbxref=taxon:11320;Name=7;collection-date=2009;country=USA: Delaware;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:E2E6%3B received at the CDC in Sept-2019;segment=7;serotype=H1N1;strain=A/California/7/2009
+MN596849.1	Genbank	gene	14	995	.	+	.	ID=gene-M2;Name=M2;gbkey=Gene;gene=M2;gene_biotype=protein_coding
+MN596849.1	Genbank	CDS	14	39	.	+	0	ID=cds-QFR38309.1;Parent=gene-M2;Dbxref=NCBI_GP:QFR38309.1;Name=QFR38309.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=QFR38309.1
+MN596849.1	Genbank	CDS	728	995	.	+	1	ID=cds-QFR38309.1;Parent=gene-M2;Dbxref=NCBI_GP:QFR38309.1;Name=QFR38309.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=QFR38309.1
+MN596849.1	Genbank	gene	14	772	.	+	.	ID=gene-M1;Name=M1;gbkey=Gene;gene=M1;gene_biotype=protein_coding
+MN596849.1	Genbank	CDS	14	772	.	+	0	ID=cds-QFR38308.1;Parent=gene-M1;Dbxref=NCBI_GP:QFR38308.1;Name=QFR38308.1;gbkey=CDS;gene=M1;product=matrix protein 1;protein_id=QFR38308.1
+##sequence-region MN596843.1 1 865
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+MN596843.1	Genbank	region	1	865	.	+	.	ID=MN596843.1:1..865;Dbxref=taxon:11320;Name=8;collection-date=2009;country=USA: Delaware;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:E2E6%3B received at the CDC in Sept-2019;segment=8;serotype=H1N1;strain=A/California/7/2009
+MN596843.1	Genbank	gene	15	852	.	+	.	ID=gene-NEP;Name=NEP;gbkey=Gene;gene=NEP;gene_biotype=protein_coding;gene_synonym=NS2
+MN596843.1	Genbank	CDS	15	44	.	+	0	ID=cds-QFR38301.1;Parent=gene-NEP;Dbxref=NCBI_GP:QFR38301.1;Name=QFR38301.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=QFR38301.1
+MN596843.1	Genbank	CDS	517	852	.	+	0	ID=cds-QFR38301.1;Parent=gene-NEP;Dbxref=NCBI_GP:QFR38301.1;Name=QFR38301.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=QFR38301.1
+MN596843.1	Genbank	gene	15	674	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+MN596843.1	Genbank	CDS	15	674	.	+	0	ID=cds-QFR38300.1;Parent=gene-NS1;Dbxref=NCBI_GP:QFR38300.1;Name=QFR38300.1;gbkey=CDS;gene=NS1;product=nonstructural protein 1;protein_id=QFR38300.1
+###
