@@ -2,8 +2,10 @@ import os
 import shutil
 import subprocess
 import concurrent.futures
+import random
 
 import click
+from Bio import SeqIO
 
 
 def download_genome(accession, year, strain):
@@ -43,7 +45,12 @@ def main(dir: str):
     with open(acc_path) as f:
         accessions = [i.strip() for i in f.readlines()]
 
-    accessions = accessions[:1]
+    # select 200 at random with the seed 42
+    random.seed(42)
+    random.shuffle(accessions)
+    accessions = accessions[:200]
+
+    # accessions = accessions[:1]
 
     # Use ProcessPoolExecutor for CPU-bound tasks like downloading and processing
     with concurrent.futures.ProcessPoolExecutor(max_workers=16) as executor:
@@ -54,6 +61,19 @@ def main(dir: str):
 
         # Wait for all tasks to complete
         concurrent.futures.wait(futures)
+
+    for fasta_file in filter(
+        lambda x: x.endswith(".faa"), os.listdir(f"bulk_genomes/{year}/{strain}")
+    ):
+        # ensure that every fasta has only a single sequence, if there are multiple take only
+        # the largest sequence
+        largest_record = max(
+            SeqIO.parse(f"bulk_genomes/{year}/{strain}/{fasta_file}", "fasta"),
+            key=lambda x: len(x.seq),
+        )
+        SeqIO.write(
+            largest_record, f"bulk_genomes/{year}/{strain}/{fasta_file}", "fasta"
+        )
 
 
 if __name__ == "__main__":

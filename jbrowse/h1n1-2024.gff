@@ -1,0 +1,60 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3932629v1
+#!genome-build-accession NCBI_Assembly:GCA_039326295.1
+##sequence-region OQ203979.1 1 2316
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+OQ203979.1	Genbank	region	1	2316	.	+	.	ID=OQ203979.1:1..2316;Dbxref=taxon:11320;Name=1;collection-date=25-Oct-2022;country=USA: Wisconsin;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:S1 (2022-11-11);segment=1;serotype=H1N1;strain=A/Wisconsin/67/2022
+OQ203979.1	Genbank	gene	16	2295	.	+	.	ID=gene-PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding
+OQ203979.1	Genbank	CDS	16	2295	.	+	0	ID=cds-WBO08834.1;Parent=gene-PB2;Dbxref=NCBI_GP:WBO08834.1;Name=WBO08834.1;gbkey=CDS;gene=PB2;product=polymerase PB2;protein_id=WBO08834.1
+##sequence-region OQ203980.1 1 2316
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+OQ203980.1	Genbank	region	1	2316	.	+	.	ID=OQ203980.1:1..2316;Dbxref=taxon:11320;Name=2;collection-date=25-Oct-2022;country=USA: Wisconsin;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:S1 (2022-11-11);segment=2;serotype=H1N1;strain=A/Wisconsin/67/2022
+OQ203980.1	Genbank	gene	13	2286	.	+	.	ID=gene-PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding
+OQ203980.1	Genbank	CDS	13	2286	.	+	0	ID=cds-WBO08835.1;Parent=gene-PB1;Dbxref=NCBI_GP:WBO08835.1;Name=WBO08835.1;gbkey=CDS;gene=PB1;product=polymerase PB1;protein_id=WBO08835.1
+OQ203980.1	Genbank	gene	107	379	.	+	.	ID=gene-PB1-F2;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=other
+OQ203980.1	Genbank	sequence_feature	107	379	.	+	.	ID=id-PB1-F2;Note=nonfunctional PB1-F2 protein due to mutation;gbkey=misc_feature;gene=PB1-F2
+##sequence-region OQ203981.1 1 2208
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+OQ203981.1	Genbank	region	1	2208	.	+	.	ID=OQ203981.1:1..2208;Dbxref=taxon:11320;Name=3;collection-date=25-Oct-2022;country=USA: Wisconsin;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:S1 (2022-11-11);segment=3;serotype=H1N1;strain=A/Wisconsin/67/2022
+OQ203981.1	Genbank	gene	13	2163	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding
+OQ203981.1	Genbank	CDS	13	2163	.	+	0	ID=cds-WBO08836.1;Parent=gene-PA;Dbxref=NCBI_GP:WBO08836.1;Name=WBO08836.1;gbkey=CDS;gene=PA;product=polymerase PA;protein_id=WBO08836.1
+OQ203981.1	Genbank	gene	13	712	.	+	.	ID=gene-PA-X;Name=PA-X;gbkey=Gene;gene=PA-X;gene_biotype=protein_coding
+OQ203981.1	Genbank	CDS	13	582	.	+	0	ID=cds-WBO08837.1;Parent=gene-PA-X;Dbxref=NCBI_GP:WBO08837.1;Name=WBO08837.1;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=WBO08837.1
+OQ203981.1	Genbank	CDS	584	712	.	+	0	ID=cds-WBO08837.1;Parent=gene-PA-X;Dbxref=NCBI_GP:WBO08837.1;Name=WBO08837.1;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=WBO08837.1
+##sequence-region OQ203982.1 1 1752
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+OQ203982.1	Genbank	region	1	1752	.	+	.	ID=OQ203982.1:1..1752;Dbxref=taxon:11320;Name=4;collection-date=25-Oct-2022;country=USA: Wisconsin;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:S1 (2022-11-11);segment=4;serotype=H1N1;strain=A/Wisconsin/67/2022
+OQ203982.1	Genbank	gene	21	1721	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+OQ203982.1	Genbank	CDS	21	1721	.	+	0	ID=cds-WBO08838.1;Parent=gene-HA;Dbxref=NCBI_GP:WBO08838.1;Name=WBO08838.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=WBO08838.1
+OQ203982.1	Genbank	signal_peptide_region_of_CDS	21	71	.	+	.	ID=id-WBO08838.1:1..17;Parent=cds-WBO08838.1;gbkey=Prot
+OQ203982.1	Genbank	mature_protein_region_of_CDS	72	1052	.	+	.	ID=id-WBO08838.1:18..344;Parent=cds-WBO08838.1;gbkey=Prot;product=HA1
+OQ203982.1	Genbank	mature_protein_region_of_CDS	1053	1718	.	+	.	ID=id-WBO08838.1:345..566;Parent=cds-WBO08838.1;gbkey=Prot;product=HA2
+##sequence-region OQ203983.1 1 1540
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+OQ203983.1	Genbank	region	1	1540	.	+	.	ID=OQ203983.1:1..1540;Dbxref=taxon:11320;Name=5;collection-date=25-Oct-2022;country=USA: Wisconsin;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:S1 (2022-11-11);segment=5;serotype=H1N1;strain=A/Wisconsin/67/2022
+OQ203983.1	Genbank	gene	34	1530	.	+	.	ID=gene-NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding
+OQ203983.1	Genbank	CDS	34	1530	.	+	0	ID=cds-WBO08839.1;Parent=gene-NP;Dbxref=NCBI_GP:WBO08839.1;Name=WBO08839.1;gbkey=CDS;gene=NP;product=nucleocapsid protein;protein_id=WBO08839.1
+##sequence-region OQ203984.1 1 1434
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+OQ203984.1	Genbank	region	1	1434	.	+	.	ID=OQ203984.1:1..1434;Dbxref=taxon:11320;Name=6;collection-date=25-Oct-2022;country=USA: Wisconsin;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:S1 (2022-11-11);segment=6;serotype=H1N1;strain=A/Wisconsin/67/2022
+OQ203984.1	Genbank	gene	9	1418	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+OQ203984.1	Genbank	CDS	9	1418	.	+	0	ID=cds-WBO08840.1;Parent=gene-NA;Dbxref=NCBI_GP:WBO08840.1;Name=WBO08840.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=WBO08840.1
+##sequence-region OQ203985.1 1 1002
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+OQ203985.1	Genbank	region	1	1002	.	+	.	ID=OQ203985.1:1..1002;Dbxref=taxon:11320;Name=7;collection-date=25-Oct-2022;country=USA: Wisconsin;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:S1 (2022-11-11);segment=7;serotype=H1N1;strain=A/Wisconsin/67/2022
+OQ203985.1	Genbank	gene	14	995	.	+	.	ID=gene-M2;Name=M2;gbkey=Gene;gene=M2;gene_biotype=protein_coding
+OQ203985.1	Genbank	CDS	14	39	.	+	0	ID=cds-WBO08842.1;Parent=gene-M2;Dbxref=NCBI_GP:WBO08842.1;Name=WBO08842.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=WBO08842.1
+OQ203985.1	Genbank	CDS	728	995	.	+	1	ID=cds-WBO08842.1;Parent=gene-M2;Dbxref=NCBI_GP:WBO08842.1;Name=WBO08842.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=WBO08842.1
+OQ203985.1	Genbank	gene	14	772	.	+	.	ID=gene-M1;Name=M1;gbkey=Gene;gene=M1;gene_biotype=protein_coding
+OQ203985.1	Genbank	CDS	14	772	.	+	0	ID=cds-WBO08841.1;Parent=gene-M1;Dbxref=NCBI_GP:WBO08841.1;Name=WBO08841.1;gbkey=CDS;gene=M1;product=matrix protein 1;protein_id=WBO08841.1
+##sequence-region OQ203986.1 1 865
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+OQ203986.1	Genbank	region	1	865	.	+	.	ID=OQ203986.1:1..865;Dbxref=taxon:11320;Name=8;collection-date=25-Oct-2022;country=USA: Wisconsin;gbkey=Src;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details:S1 (2022-11-11);segment=8;serotype=H1N1;strain=A/Wisconsin/67/2022
+OQ203986.1	Genbank	gene	15	852	.	+	.	ID=gene-NEP;Name=NEP;gbkey=Gene;gene=NEP;gene_biotype=protein_coding;gene_synonym=NS2
+OQ203986.1	Genbank	CDS	15	44	.	+	0	ID=cds-WBO08844.1;Parent=gene-NEP;Dbxref=NCBI_GP:WBO08844.1;Name=WBO08844.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=WBO08844.1
+OQ203986.1	Genbank	CDS	517	852	.	+	0	ID=cds-WBO08844.1;Parent=gene-NEP;Dbxref=NCBI_GP:WBO08844.1;Name=WBO08844.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=WBO08844.1
+OQ203986.1	Genbank	gene	15	674	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+OQ203986.1	Genbank	CDS	15	674	.	+	0	ID=cds-WBO08843.1;Parent=gene-NS1;Dbxref=NCBI_GP:WBO08843.1;Name=WBO08843.1;gbkey=CDS;gene=NS1;product=nonstructural protein 1;protein_id=WBO08843.1
+###

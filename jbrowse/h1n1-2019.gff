@@ -1,0 +1,60 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM3900748v1
+#!genome-build-accession NCBI_Assembly:GCA_039007485.1
+##sequence-region OQ718992.1 1 2301
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+OQ718992.1	Genbank	region	1	2301	.	+	.	ID=OQ718992.1:1..2301;Dbxref=taxon:11320;Name=1;collection-date=2018-01-04;country=Australia: Queensland%2C Brisbane;gbkey=Src;isolate=2;mol_type=viral cRNA;nat-host=Homo sapiens;note=EPI_ISL_362099;segment=1;serotype=H1N1;strain=A/Brisbane/2/2018
+OQ718992.1	Genbank	gene	1	2280	.	+	.	ID=gene-PB2;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding
+OQ718992.1	Genbank	CDS	1	2280	.	+	0	ID=cds-WEY08906.1;Parent=gene-PB2;Dbxref=NCBI_GP:WEY08906.1;Name=WEY08906.1;gbkey=CDS;gene=PB2;product=polymerase PB2;protein_id=WEY08906.1
+##sequence-region OQ718993.1 1 2340
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+OQ718993.1	Genbank	region	1	2340	.	+	.	ID=OQ718993.1:1..2340;Dbxref=taxon:11320;Name=2;collection-date=2018-01-04;country=Australia: Queensland%2C Brisbane;gbkey=Src;isolate=2;mol_type=viral cRNA;nat-host=Homo sapiens;note=EPI_ISL_362099;segment=2;serotype=H1N1;strain=A/Brisbane/2/2018
+OQ718993.1	Genbank	gene	24	2297	.	+	.	ID=gene-PB1;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding
+OQ718993.1	Genbank	CDS	24	2297	.	+	0	ID=cds-WEY08907.1;Parent=gene-PB1;Dbxref=NCBI_GP:WEY08907.1;Name=WEY08907.1;gbkey=CDS;gene=PB1;product=polymerase PB1;protein_id=WEY08907.1
+OQ718993.1	Genbank	gene	118	390	.	+	.	ID=gene-PB1-F2;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=other
+OQ718993.1	Genbank	sequence_feature	118	390	.	+	.	ID=id-PB1-F2;Note=nonfunctional PB1-F2 protein due to mutation;gbkey=misc_feature;gene=PB1-F2
+##sequence-region OQ718994.1 1 2233
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+OQ718994.1	Genbank	region	1	2233	.	+	.	ID=OQ718994.1:1..2233;Dbxref=taxon:11320;Name=3;collection-date=2018-01-04;country=Australia: Queensland%2C Brisbane;gbkey=Src;isolate=2;mol_type=viral cRNA;nat-host=Homo sapiens;note=EPI_ISL_362099;segment=3;serotype=H1N1;strain=A/Brisbane/2/2018
+OQ718994.1	Genbank	gene	25	2175	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA;gene_biotype=protein_coding
+OQ718994.1	Genbank	CDS	25	2175	.	+	0	ID=cds-WEY08908.1;Parent=gene-PA;Dbxref=NCBI_GP:WEY08908.1;Name=WEY08908.1;gbkey=CDS;gene=PA;product=polymerase PA;protein_id=WEY08908.1
+OQ718994.1	Genbank	gene	25	724	.	+	.	ID=gene-PA-X;Name=PA-X;gbkey=Gene;gene=PA-X;gene_biotype=protein_coding
+OQ718994.1	Genbank	CDS	25	594	.	+	0	ID=cds-WEY08909.1;Parent=gene-PA-X;Dbxref=NCBI_GP:WEY08909.1;Name=WEY08909.1;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=WEY08909.1
+OQ718994.1	Genbank	CDS	596	724	.	+	0	ID=cds-WEY08909.1;Parent=gene-PA-X;Dbxref=NCBI_GP:WEY08909.1;Name=WEY08909.1;exception=ribosomal slippage;gbkey=CDS;gene=PA-X;product=PA-X protein;protein_id=WEY08909.1
+##sequence-region OQ718991.1 1 1745
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+OQ718991.1	Genbank	region	1	1745	.	+	.	ID=OQ718991.1:1..1745;Dbxref=taxon:11320;Name=4;collection-date=2018-01-04;country=Australia: Queensland%2C Brisbane;gbkey=Src;isolate=2;mol_type=viral cRNA;nat-host=Homo sapiens;note=EPI_ISL_362099;segment=4;serotype=H1N1;strain=A/Brisbane/2/2018
+OQ718991.1	Genbank	gene	1	1701	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+OQ718991.1	Genbank	CDS	1	1701	.	+	0	ID=cds-WEY08905.1;Parent=gene-HA;Dbxref=NCBI_GP:WEY08905.1;Name=WEY08905.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=WEY08905.1
+OQ718991.1	Genbank	signal_peptide_region_of_CDS	1	51	.	+	.	ID=id-WEY08905.1:1..17;Parent=cds-WEY08905.1;gbkey=Prot
+OQ718991.1	Genbank	mature_protein_region_of_CDS	52	1032	.	+	.	ID=id-WEY08905.1:18..344;Parent=cds-WEY08905.1;gbkey=Prot;product=HA1
+OQ718991.1	Genbank	mature_protein_region_of_CDS	1033	1698	.	+	.	ID=id-WEY08905.1:345..566;Parent=cds-WEY08905.1;gbkey=Prot;product=HA2
+##sequence-region OQ718995.1 1 1557
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+OQ718995.1	Genbank	region	1	1557	.	+	.	ID=OQ718995.1:1..1557;Dbxref=taxon:11320;Name=5;collection-date=2018-01-04;country=Australia: Queensland%2C Brisbane;gbkey=Src;isolate=2;mol_type=viral cRNA;nat-host=Homo sapiens;note=EPI_ISL_362099;segment=5;serotype=H1N1;strain=A/Brisbane/2/2018
+OQ718995.1	Genbank	gene	38	1534	.	+	.	ID=gene-NP;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding
+OQ718995.1	Genbank	CDS	38	1534	.	+	0	ID=cds-WEY08910.1;Parent=gene-NP;Dbxref=NCBI_GP:WEY08910.1;Name=WEY08910.1;gbkey=CDS;gene=NP;product=nucleocapsid protein;protein_id=WEY08910.1
+##sequence-region OQ718990.1 1 1412
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+OQ718990.1	Genbank	region	1	1412	.	+	.	ID=OQ718990.1:1..1412;Dbxref=taxon:11320;Name=6;collection-date=2018-01-04;country=Australia: Queensland%2C Brisbane;gbkey=Src;isolate=2;mol_type=viral cRNA;nat-host=Homo sapiens;note=EPI_ISL_362099;segment=6;serotype=H1N1;strain=A/Brisbane/2/2018
+OQ718990.1	Genbank	gene	1	1410	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+OQ718990.1	Genbank	CDS	1	1410	.	+	0	ID=cds-WEY08904.1;Parent=gene-NA;Dbxref=NCBI_GP:WEY08904.1;Name=WEY08904.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=WEY08904.1
+##sequence-region OQ718996.1 1 982
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+OQ718996.1	Genbank	region	1	982	.	+	.	ID=OQ718996.1:1..982;Dbxref=taxon:11320;Name=7;collection-date=2018-01-04;country=Australia: Queensland%2C Brisbane;gbkey=Src;isolate=2;mol_type=viral cRNA;nat-host=Homo sapiens;note=EPI_ISL_362099;segment=7;serotype=H1N1;strain=A/Brisbane/2/2018
+OQ718996.1	Genbank	gene	1	982	.	+	.	ID=gene-M2;Name=M2;gbkey=Gene;gene=M2;gene_biotype=protein_coding
+OQ718996.1	Genbank	CDS	1	26	.	+	0	ID=cds-WEY08912.1;Parent=gene-M2;Dbxref=NCBI_GP:WEY08912.1;Name=WEY08912.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=WEY08912.1
+OQ718996.1	Genbank	CDS	715	982	.	+	1	ID=cds-WEY08912.1;Parent=gene-M2;Dbxref=NCBI_GP:WEY08912.1;Name=WEY08912.1;gbkey=CDS;gene=M2;product=matrix protein 2;protein_id=WEY08912.1
+OQ718996.1	Genbank	gene	1	759	.	+	.	ID=gene-M1;Name=M1;gbkey=Gene;gene=M1;gene_biotype=protein_coding
+OQ718996.1	Genbank	CDS	1	759	.	+	0	ID=cds-WEY08911.1;Parent=gene-M1;Dbxref=NCBI_GP:WEY08911.1;Name=WEY08911.1;gbkey=CDS;gene=M1;product=matrix protein 1;protein_id=WEY08911.1
+##sequence-region OQ718997.1 1 891
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+OQ718997.1	Genbank	region	1	891	.	+	.	ID=OQ718997.1:1..891;Dbxref=taxon:11320;Name=8;collection-date=2018-01-04;country=Australia: Queensland%2C Brisbane;gbkey=Src;isolate=2;mol_type=viral cRNA;nat-host=Homo sapiens;note=EPI_ISL_362099;segment=8;serotype=H1N1;strain=A/Brisbane/2/2018
+OQ718997.1	Genbank	gene	28	865	.	+	.	ID=gene-NEP;Name=NEP;gbkey=Gene;gene=NEP;gene_biotype=protein_coding;gene_synonym=NS2
+OQ718997.1	Genbank	CDS	28	57	.	+	0	ID=cds-WEY08914.1;Parent=gene-NEP;Dbxref=NCBI_GP:WEY08914.1;Name=WEY08914.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=WEY08914.1
+OQ718997.1	Genbank	CDS	530	865	.	+	0	ID=cds-WEY08914.1;Parent=gene-NEP;Dbxref=NCBI_GP:WEY08914.1;Name=WEY08914.1;Note=nonstructural protein 2;gbkey=CDS;gene=NEP;product=nuclear export protein;protein_id=WEY08914.1
+OQ718997.1	Genbank	gene	28	687	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+OQ718997.1	Genbank	CDS	28	687	.	+	0	ID=cds-WEY08913.1;Parent=gene-NS1;Dbxref=NCBI_GP:WEY08913.1;Name=WEY08913.1;gbkey=CDS;gene=NS1;product=nonstructural protein 1;protein_id=WEY08913.1
+###

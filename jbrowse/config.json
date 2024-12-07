@@ -1,10 +1,10 @@
 {
   "assemblies": [
     {
-      "name": "H1N1_2014",
+      "name": "h1n1-2014",
       "sequence": {
         "type": "ReferenceSequenceTrack",
-        "trackId": "H1N1_2014-ReferenceSequenceTrack",
+        "trackId": "h1n1-2014-ReferenceSequenceTrack",
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
@@ -17,9 +17,107 @@
           }
         }
       }
+    },
+    {
+      "name": "h1n1-2019",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "h1n1-2019-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "h1n1-2019.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "h1n1-2019.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "h1n1-2024",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "h1n1-2024-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "h1n1-2024.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "h1n1-2024.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "h3n2-2014",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "h3n2-2014-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "h3n2-2014.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "h3n2-2014.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "h3n2-2019",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "h3n2-2019-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "h3n2-2019.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "h3n2-2019.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "h3n2-2024",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "h3n2-2024-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "h3n2-2024.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "h3n2-2024.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
     }
   ],
-  "configuration": {},
+  "configuration": {
+    "theme": {
+      "palette": {
+        "primary": {
+          "main": "#D97757"
+        }
+      }
+    }
+  },
   "connections": [],
   "defaultSession": {
     "name": "New Session"
@@ -37,7 +135,82 @@
         }
       },
       "assemblyNames": [
-        "H1N1_2014"
+        "h1n1-2014"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "h1n1-2019",
+      "name": "h1n1-2019",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "h1n1-2019.gff",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "h1n1-2019"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "h1n1-2024",
+      "name": "h1n1-2024",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "h1n1-2024.gff",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "h1n1-2024"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "h3n2-2014",
+      "name": "h3n2-2014",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "h3n2-2014.gff",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "h3n2-2014"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "h3n2-2019",
+      "name": "h3n2-2019",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "h3n2-2019.gff",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "h3n2-2019"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "h3n2-2024",
+      "name": "h3n2-2024",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "h3n2-2024.gff",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "h3n2-2024"
       ]
     }
   ]
