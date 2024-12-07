@@ -1,6 +1,7 @@
 # setup software
 python -m pip install -r requirements.txt
 bash scripts/install-datasets-cli.bash
+sudo npm install -g serve
 
 
 # download reference genome
@@ -19,8 +20,6 @@ bash scripts/align.bash
 mkdir -p jbrowse
 jbrowse create jbrowse
 cd jbrowse
-sudo npm install -g serve
-serve
 
 # Index the reference genome
 # Add the genome assembly first
@@ -32,3 +31,5 @@ for strain in h1n1 h3n2; do
         jbrowse add-track ../reference_genomes/$strain/$strain-$year.gff --load copy --assemblyNames "$strain-$year"
     done
 done
+
+serve
