@@ -3,11 +3,140 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Influenza Variant Browser</title>
+    <style>
+        :root {
+            --primary-color: #D97757;
+            --secondary-color: #000;
+            --accent-color: #c74e15;
+            --light-bg: #f5f6fa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: var(--primary-color);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .strain-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .strain-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .strain-title {
+            color: var(--secondary-color);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        .year-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .year-item {
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            background-color: var(--light-bg);
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .year-item span:last-child {
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        .info-text {
+            text-align: center;
+            margin: 2rem 0;
+            color: #666;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--accent-color);
+        }
+    </style>
 </head>
 
 <body>
-    <h1>working</h1>
+    <header>
+        <h1>Influenza Variant Browser</h1>
+        <p>Explore influenza strain data across different years. Click a year, open the browser and load the </br>
+            hemagglutinin alignment and newick file corresponding to the previous or subsequent year's data.</p>
+    </header>
+
+    <main>
+        <div class="strain-container">
+            <div class="strain-card">
+                <h2 class="strain-title">H1N1</h2>
+                <ul class="year-list">
+                    <li class="year-item">
+                        <span>2014</span>
+                        <span><a href="https://cadegordon.io/bioe231c-final-proj/jbrowse/">View data →</a></span>
+                    </li>
+                    <li class="year-item">
+                        <span>2019</span>
+                        <span><a href="https://cadegordon.io/bioe231c-final-proj/jbrowse/">View Data →</a></span>
+                    </li>
+                    <li class="year-item">
+                        <span>2024</span>
+                        <span><a href="https://cadegordon.io/bioe231c-final-proj/jbrowse/">View Data →</a></span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="strain-card">
+                <h2 class="strain-title">H3N2</h2>
+                <ul class="year-list">
+                    <li class="year-item">
+                        <span>2014</span>
+                        <span><a href="https://cadegordon.io/bioe231c-final-proj/jbrowse/">View data →</a></span>
+                    </li>
+                    <li class="year-item">
+                        <span>2019</span>
+                        <span><a href="https://cadegordon.io/bioe231c-final-proj/jbrowse/">View Data →</a></span>
+                    </li>
+                    <li class="year-item">
+                        <span>2024</span>
+                        <span><a href="https://cadegordon.io/bioe231c-final-proj/jbrowse/">View Data →</a></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="info-text">Select a strain and year to view detailed variant information.</p>
+    </main>
 </body>
 
 </html>
